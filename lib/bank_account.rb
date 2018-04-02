@@ -18,5 +18,6 @@ class BankAccount
 
   def valid?
     false if @status == "closed" || @balance <= 0
+    true
   end
 end
